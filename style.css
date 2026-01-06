@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 15px;
+  background: #020617;
+}
+
+.panel {
+  margin: 10px;
+}
+
+select, input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+button {
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+#sheet {
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+footer {
+  font-size: 12px;
+  opacity: 0.7;
+}
