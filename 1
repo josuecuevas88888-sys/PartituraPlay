@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PartituraPlay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Librerías -->
+  <script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@1.8.5/build/opensheetmusicdisplay.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.39/Tone.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎼 PartituraPlay</h1>
+  <p>Ver y oír música en tiempo real</p>
+</header>
+
+<section class="panel">
+  <select>
+    <option>Clarinete</option>
+    <option>Saxofón</option>
+    <option>Trompeta</option>
+    <option>Piano</option>
+  </select>
+
+  <label>Tempo</label>
+  <input type="range" min="40" max="140" value="80">
+</section>
+
+<section class="panel">
+  <button oncli
